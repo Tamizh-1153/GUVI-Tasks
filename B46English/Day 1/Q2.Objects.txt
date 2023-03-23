@@ -1,0 +1,13 @@
+Objects 
+
+In JavaScript, an object is a collection of properties that are organized in key-value pairs. Properties can be any data type, such as strings, numbers, arrays, and even other objects. Objects can also have methods, which are functions that are associated with the object.
+
+Objects in JavaScript can be created using two different approaches: object literals and constructor functions. Object literals are a shorthand way of creating objects and are created using the curly braces ({}) notation. Constructor functions, on the other hand, are functions that are used to create new instances of an object.
+
+Internal representation of objects in JavaScript
+
+In JavaScript, objects are internally represented as a collection of properties and methods stored in memory. Each property is stored as a key-value pair, where the key is a string that identifies the property, and the value is the actual data stored in the property.
+
+When an object is created, JavaScript creates an object reference, which is a pointer to the object's location in memory. This reference is used to access and manipulate the object's properties and methods.
+
+JavaScript uses a special data structure called a hash table to store the properties of an object. A hash table is a data structure that stores key-value pairs, where the key is hashed to a numerical value that corresponds to the location of the value in memory. This allows for fast access to properties in an object, even if the object has many properties.
