@@ -1,0 +1,25 @@
+span{
+    color: red;   
+}
+
+h5{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.stars i.active {
+    color: gold;
+}
+.stars i:hover {
+    transform: translateY(-2px);
+}
+ 
+.stars i {
+    color: #e6e6e6;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+col-12{
+    justify-content: center;
+}

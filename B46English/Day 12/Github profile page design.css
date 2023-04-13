@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CAD2C5;
+}
+
+.navbar{
+    background-color: #2F3D46;
+    display: flex;
+    height: 80px;
+    font-size: 1.2rem;
+}
+
+img{   
+    padding: 20px 20px;
+    margin: 5px;
+    margin-bottom: 8px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #DDE2E6;
+}
+
+
+
+.grid{
+    background-color: #353535;
+    border-radius: 20px;
+}
+
+
+
+.grid-container{
+   display: grid;
+   grid-template-areas: 
+     'search search search'
+     'sb sb 0'
+     'main1 main2 main3'
+     'ft ft ft'   
+   ;
+   grid-template-rows: 40px 300px 120px 150px;
+   grid-gap: 20px;
+   margin-top: 40px;
+   margin-left: 5px;
+   margin-right: 5px;
+   height: 100vh;
+}
+
+.grid-item1{
+   grid-area: sb;
+}
+.grid-item2{
+    grid-area: search;
+    color: #DDE2E6;
+    display: flex;
+    align-items: center;
+    text-indent: 1rem;
+    font-size: 1.2rem;
+    
+}
+.grid-item3{
+    grid-area: main1;
+}
+.grid-item4{
+    grid-area:main2 ;
+}
+.grid-item5{
+    grid-area: main3;
+}
+.grid-item6{
+    grid-area:ft ;
+}
+
+@media only screen and (min-width:762px) {
+    .grid-container{
+   display: grid;
+   grid-template-areas: "sb search search search"
+   "sb main1 main2 main3"
+   "sb ft ft ft"
+   ;
+   grid-template-columns: 300px auto auto auto;
+   grid-template-rows: 70px 150px 200px;
+   grid-gap: 50px;
+   margin-top: 50px;
+   height: 70vh;
+   margin-right: 80px;
+   margin-left: 50px; 
+   grid-auto-flow:dense;
+}
+.grid{
+    border-radius: 10px;
+}
+
+.grid-item1{
+    grid-area: sb;
+       
+}
+.grid-item2{
+    color: #DDE2E6;
+    display: flex;
+    grid-area: search;
+    height: 60%;
+    width:75%;
+    position: relative;
+    left:70px;
+    right: 70px;
+    align-items: center;
+    text-indent: 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.grid-item3{
+    grid-area: main1;
+   
+}
+.grid-item4{
+    grid-area: main2;
+   
+}
+.grid-item5{
+    grid-area: main3;
+    
+}
+.grid-item6{
+    grid-area: ft;
+    margin-bottom: 20px;
+}
+}
