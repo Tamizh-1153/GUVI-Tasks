@@ -1,0 +1,25 @@
+
+
+.calculator{
+    height: 300px;
+    width: 320px;
+    box-shadow: 3px 3px 3px 1px lightgray
+} 
+
+ .calculator-display{
+    height:70px;
+    font-size: 1.5rem;
+    
+ }
+
+.calculator-keys{
+    height:230px;
+}
+
+.btn{
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+
+
+

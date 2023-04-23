@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,175,166,1) 50%, rgba(4,40,36,1) 100%);
+}
+
+.hTitle{
+    color: rgb(238, 223, 233);
+}

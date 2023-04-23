@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="Survey-form.css">
+    <title>Document</title>
+</head>
+<body>
+  <form action="#">
+    <label for="exampleFormControlInput1" class="form-label ms-3 fw-bold">Name <span>*</span></label>
+    <div class="row ms-1 ">
+        <div class="col-md-3 col-6">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col-md-3 col-6">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+      <div class="row ms-1 mb-4">
+        <div class="col-md-3 col-6">
+          First
+        </div>
+        <div class="col-md-3 col-6">
+          Last
+        </div>
+      </div>
+      <div class="col-md-6 col-12 mb-3 ms-3 ">
+        <label for="exampleFormControlInput1" class="form-label fw-bold">Email address<span>*</span></label>
+        <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+       <!-- -------------Star rating------------------------ -->
+       <div class="rating-box">
+        <label class="form-label ms-3 mt-2 fw-bold">Your experience<span>*</span></label>
+    
+        <div class="stars mt-2 ms-3">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div> 
+      <!-- ----------How satisfied are you with---------- -->
+      <label for="exampleFormControlInput1" class="form-label ms-3 mt-4 fw-bold">How satisfied are you with<span>*</span></label>
+      <div class="container-fluid text-center mt-3 ms-3">
+        <div class="row">
+          <div class="col-2">
+          </div>
+          <div class="col-2">
+            Very unsatisfied
+          </div>
+          <div class="col-2">
+            Unsatisfied
+          </div>
+          <div class="col-2">
+            Neutral
+          </div>
+          <div class="col-2">
+            Satisfied
+          </div>
+          <div class="col-2">
+            Very satisfied
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center mt-3 ms-3 " >
+        <div class="row " style="background-color: rgba(150, 150, 150, 0.318);">
+          <div class="col-2 text-start">
+            Purchase
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          </div>
+
+        </div>
+      </div>
+      <div class="container-fluid text-center mt-3 ms-3">
+        <div class="row">
+          <div class="col-2 text-start">
+            Service
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center mt-3 ms-3 " >
+        <div class="row" style="background-color: rgba(150, 150, 150, 0.318);">
+          <div class="col-2 text-start">
+            Company Overall
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+          </div>
+
+        </div>
+      </div>
+      <!-- ----------How likely are you to---------- -->
+      <label for="exampleFormControlInput1" class="form-label ms-3 mt-5 fw-bold">How likely are you to<span>*</span></label>
+      <div class="container-fluid text-center mt-3 ms-3">
+        <div class="row">
+          <div class="col-2">
+          </div>
+          <div class="col-2">
+            Very unsatisfied
+          </div>
+          <div class="col-2">
+            Unsatisfied
+          </div>
+          <div class="col-2">
+            Neutral
+          </div>
+          <div class="col-2">
+            Satisfied
+          </div>
+          <div class="col-2">
+            Very satisfied
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center mt-3 ms-3 " style="background-color: rgba(150, 150, 150, 0.318);">
+        <div class="row">
+          <div class="col-2 text-start  align-self-center">
+            Buy from us again
+          </div>
+          <div class="col-2  align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4">
+          </div>
+
+        </div>
+      </div>
+      <div class="container-fluid text-center mt-3 ms-3">
+        <div class="row">
+          <div class="col-2 text-start">
+            Recommend our product to others
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center mt-3 ms-3 " style="background-color: rgba(150, 150, 150, 0.318);">
+        <div class="row ">
+          <div class="col-2 text-start">
+            Recommend our company to others
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault6" id="flexRadioDefault6">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault6" id="flexRadioDefault6">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault6" id="flexRadioDefault6">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault6" id="flexRadioDefault6">
+          </div>
+          <div class="col-2 align-self-center">
+            <input class="form-check-input" type="radio" name="flexRadioDefault6" id="flexRadioDefault6">
+          </div>
+        </div>
+      </div>
+      <div class="mb-3 ms-3 mt-4 me-3">
+        <label for="exampleFormControlTextarea1" class="form-label fw-bold">Additional comments or suggestions</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-1">
+        <button class="btn btn-secondary ms-3" type="submit">Submit</button>
+      </div>
+  </form>   
+<script src="Survey-form.js"></script>
+<script src="https://kit.fontawesome.com/5ae1f9b09b.js" crossorigin="anonymous"></script>
+</body>
+</html>
