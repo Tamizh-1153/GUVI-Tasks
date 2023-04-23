@@ -3,7 +3,7 @@ container.classList='container'
 document.body.appendChild(container)
 
 const heading=document.createElement('h1')
-heading.classList='text-center mb-3'
+heading.classList='text-center'
 heading.setAttribute('id','title')
 heading.textContent='Rest countries and OpenWeatherMap using fetch API'
 container.appendChild(heading)
